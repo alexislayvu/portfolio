@@ -21,11 +21,11 @@ const Projects = () => {
       projectLink: null,
     },
     {
-      title: 'Todo List Flask API',
+      title: 'Todo App',
       description:
-        'A todo application enhanced with Celery for asynchronous processing, Redis for message brokering, and Nginx for API gateway management. Using Flask and MySQL, we developed RESTful APIs for CRUD operations and user authentication.',
+        'A todo application enhanced with Celery for asynchronous processing, Redis for message brokering, and Nginx for API gateway management. Features a RESTful API developed with Flask and MySQL, supporting CRUD operations and user authentication.',
       techStack: ['Python', 'Flask', 'MySQL', 'Redis', 'Celery', 'Nginx'],
-      githubLink: 'https://github.com/fooledyouonce/cpsc449_final',
+      githubLink: 'https://github.com/alexislayvu/backend-todo-app',
       projectLink: null,
     },
     {

@@ -30,7 +30,7 @@ const Navbar = () => {
     <nav className="sticky top-0 bg-navy p-6 z-10">
       <div className="flex justify-between items-center text-lg 2xl:text-2xl">
         <div className="hover:text-green">
-          <a href="#intro">Alexis Lay Vu</a>
+          <a href="#">Alexis Lay Vu</a>
         </div>
         <div className="hidden space-x-4 md:flex">
           <a href="#about" className="hover:text-green">

@@ -7,10 +7,11 @@ const Projects = () => {
     {
       title: 'Object Detector',
       description:
-        'A web application for object detection using the COCO-SSD model. Users can detect objects via webcam or images and customize settings for precise results.',
+        'A web application for object detection using the COCO-SSD model, allowing users to detect objects through webcam feeds or uploaded images. The application features customizable detection settings for maximum detections and score thresholds, enabling precise and tailored results.',
       techStack: ['React', 'JavaScript', 'HTML', 'CSS', 'Tensorflow.js'],
       githubLink: 'https://github.com/alexislayvu/ObjectDetector',
-      projectLink: 'https://ace-object-detector.vercel.app/',
+      // projectLink: 'https://ace-object-detector.vercel.app/',
+      projectLink: null,
     },
     {
       title: 'QuizLingo',
@@ -23,19 +24,19 @@ const Projects = () => {
     {
       title: 'Todo App',
       description:
-        'A todo application enhanced with Celery for asynchronous processing, Redis for message brokering, and Nginx for API gateway management. Features a RESTful API developed with Flask and MySQL, supporting CRUD operations and user authentication.',
+        'A todo application powered by Flask, MySQL, Celery, Redis, and Nginx. Implemented RESTful APIs supporting CRUD operations and user authentication. Integrated Celery for asynchronous task execution, Redis for message brokering, and Nginx as an API gateway.',
       techStack: ['Python', 'Flask', 'MySQL', 'Redis', 'Celery', 'Nginx'],
       githubLink: 'https://github.com/alexislayvu/backend-todo-app',
       projectLink: null,
     },
-    {
-      title: 'TrivTopia',
-      description:
-        'A trivia web application featuring quizzes on sports, pop culture, science and nature, and technology, providing users with an interactive way to test their knowledge across various subjects.',
-      techStack: ['JavaScript', 'Bootstrap', 'HTML', 'CSS'],
-      githubLink: 'https://github.com/alexislayvu/trivtopia',
-      projectLink: 'https://trivtopia.vercel.app/',
-    },
+    // {
+    //   title: 'TrivTopia',
+    //   description:
+    //     'A trivia web application featuring quizzes on sports, pop culture, science and nature, and technology, providing users with an interactive way to test their knowledge across various subjects.',
+    //   techStack: ['JavaScript', 'Bootstrap', 'HTML', 'CSS'],
+    //   githubLink: 'https://github.com/alexislayvu/trivtopia',
+    //   projectLink: 'https://trivtopia.vercel.app/',
+    // },
     {
       title: 'University Database',
       description:
@@ -47,7 +48,7 @@ const Projects = () => {
     {
       title: 'TuffyScheduler',
       description:
-        'A program designed to streamline schedule creation for students, featuring generation and evaluation of clash-free class schedules using data structures and algorithms.',
+        'A program that streamlines schedule creation for students by generating and evaluating class schedules. It optimizes course selection to maximize the number of classes while ensuring schedules are conflict-free.',
       techStack: ['C++'],
       githubLink: null,
       projectLink: null,

@@ -68,9 +68,8 @@ const About = () => {
               Outside of work, I cherish spending quality time with my girlfriend, whether it's
               exploring new places, going on long drives, visiting Disneyland, or cozying up to
               binge-watch one of our favorite shows. I also love going to the movies, indulging in
-              shopping, and have recently embraced running. Oh, and I enjoy playing Brawl Stars.
-              Looking ahead, I want to pick up reading, learn new technologies, and strengthen my
-              current skills.
+              shopping, and have recently embraced running. Looking ahead, I want to pick up
+              reading, learn new technologies, and strengthen my current skills.
             </p>
           </div>
 

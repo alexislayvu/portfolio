@@ -5,7 +5,7 @@ import FadeInSection from './FadeInSection';
 const Projects = () => {
   const projects = [
     {
-      title: 'Object Detector',
+      title: 'Object Detection Web App',
       description:
         'A web application for object detection using the COCO-SSD model, allowing users to detect objects through webcam feeds or uploaded images. The application features customizable detection settings for maximum detections and score thresholds, enabling precise and tailored results.',
       techStack: ['React', 'JavaScript', 'HTML', 'CSS', 'Tensorflow.js'],

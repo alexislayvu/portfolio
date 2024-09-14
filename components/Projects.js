@@ -10,7 +10,6 @@ const Projects = () => {
         'A web application for object detection using the COCO-SSD model, allowing users to detect objects through webcam feeds or uploaded images. The application features customizable detection settings for maximum detections and score thresholds, enabling precise and tailored results.',
       techStack: ['React', 'JavaScript', 'HTML', 'CSS', 'Tensorflow.js'],
       githubLink: 'https://github.com/alexislayvu/ObjectDetector',
-      // projectLink: 'https://ace-object-detector.vercel.app/',
       projectLink: null,
     },
     {
@@ -29,14 +28,6 @@ const Projects = () => {
       githubLink: 'https://github.com/alexislayvu/backend-todo-app',
       projectLink: null,
     },
-    // {
-    //   title: 'TrivTopia',
-    //   description:
-    //     'A trivia web application featuring quizzes on sports, pop culture, science and nature, and technology, providing users with an interactive way to test their knowledge across various subjects.',
-    //   techStack: ['JavaScript', 'Bootstrap', 'HTML', 'CSS'],
-    //   githubLink: 'https://github.com/alexislayvu/trivtopia',
-    //   projectLink: 'https://trivtopia.vercel.app/',
-    // },
     {
       title: 'University Database',
       description:

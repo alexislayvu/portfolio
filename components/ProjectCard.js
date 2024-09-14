@@ -24,8 +24,8 @@ const ProjectCard = ({ title, description, techStack, githubLink, projectLink })
             )}
           </div>
         </div>
-        <h1 className="my-4 text-2xl text-lightest-slate">{title}</h1>
-        <h2 className="mb-4 text-light-slate">{description}</h2>
+        <h3 className="my-4 text-2xl text-lightest-slate">{title}</h3>
+        <h4 className="mb-4 text-light-slate">{description}</h4>
         <div className="flex flex-wrap mt-2">
           {techStack.map((tech, index) => (
             <span key={index} className="mr-2 text-slate">

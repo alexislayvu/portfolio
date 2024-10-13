@@ -16,8 +16,9 @@ const Intro = () => {
         <FadeInSection>
           <h2 className="text-3xl sm:text-4xl text-light-slate">Aspiring Software Engineer</h2>
           <p className="text-lg md:text-xl text-slate mt-4 max-w-xl mx-auto">
-            I enjoy problem-solving, learning new things, and collaborating with others. I'm eager
-            to contribute to projects in an environment where I can continuously learn and grow.
+            I enjoy solving problems through code, learning new technologies, and working
+            collaboratively to create impactful solutions. I'm eager to contribute to projects where
+            I can grow my skills and make a meaningful difference in a dynamic environment.
           </p>
 
           <div className="flex justify-center gap-20 mt-20">

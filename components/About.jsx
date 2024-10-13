@@ -6,7 +6,7 @@ const About = () => {
   const technologies = [
     {
       title: 'Languages',
-      list: ['Python', 'C/C++', 'HTML', 'CSS', 'JavaScript', 'Kotlin'],
+      list: ['Python', 'C/C++', 'JavaScript', 'HTML', 'CSS', 'Kotlin'],
     },
     {
       title: 'Web Development',
@@ -14,7 +14,7 @@ const About = () => {
     },
     {
       title: 'Machine Learning',
-      list: ['TensorFlow', 'OpenCV', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn'],
+      list: ['TensorFlow', 'OpenCV', 'pandas', 'NumPy', 'Matplotlib', 'Scikit-learn'],
     },
   ];
 

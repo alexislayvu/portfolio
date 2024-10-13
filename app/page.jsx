@@ -7,11 +7,11 @@ import Projects from '@/components/Projects';
 export default function Home() {
   return (
     <main className="px-6">
-      <Navbar></Navbar>
-      <Intro></Intro>
-      <About></About>
-      <Experience></Experience>
-      <Projects></Projects>
+      <Navbar />
+      <Intro />
+      <About />
+      <Experience />
+      <Projects />
     </main>
   );
 }

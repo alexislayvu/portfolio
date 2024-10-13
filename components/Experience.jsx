@@ -3,9 +3,9 @@ import SectionHeader from './SectionHeader';
 
 const Experience = () => {
   const jobDescription = [
-    'Collaborate with team members to achieve an organized, stocked, and easily accessible product section, enhancing the customer experience and honing valuable interpersonal communication skills.',
-    'Demonstrate commitment to customer satisfaction by promptly addressing concerns or needs and continuously expanding product knowledge.',
-    'Drive sales growth by engaging with customers on the sales floor, effectively promoting products, and increasing overall awareness.',
+    'Collaborate with team members to maintain an organized and efficient product section, improving workflow and ensuring a positive customer experience.',
+    'Demonstrate problem-solving abilities by addressing customer concerns or product issues in real-time, contributing to customer satisfaction and store success.',
+    'Engage with customers on the sales floor to provide recommendations and build product knowledge, fostering a welcoming and informative environment.',
   ];
 
   return (

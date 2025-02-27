@@ -12,10 +12,6 @@ const About = () => {
       title: 'Web Development',
       list: ['React', 'Next.js', 'Tailwind CSS', 'Flask', 'MySQL', 'PHP'],
     },
-    {
-      title: 'Machine Learning',
-      list: ['TensorFlow', 'OpenCV', 'pandas', 'NumPy', 'Matplotlib', 'Scikit-learn'],
-    },
   ];
 
   return (

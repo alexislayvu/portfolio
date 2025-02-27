@@ -9,7 +9,7 @@ const ProjectCard = ({ title, description, techStack, githubLink, projectLink })
   ];
 
   return (
-    <div className="columns-1 rounded bg-light-navy max-w-xs mx-auto">
+    <div className="columns-1 rounded-lg bg-light-navy max-w-xs mx-auto">
       <div className="m-6">
         <div className="flex justify-between items-center">
           <CiFolderOn className="text-4xl text-green" />

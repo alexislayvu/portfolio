@@ -27,7 +27,7 @@ const Experience = () => {
           <h4 className="mb-6 text-lg text-light-slate">October 2019 - Present </h4>
           <ul className="list-none">
             {jobDescription.map((desc, index) => (
-              <li key={index} className="text-lg text-slate md:text-xl">
+              <li key={index} className="mb-2 text-lg text-slate md:text-xl">
                 <span className="mr-2 text-sm text-green">▹</span> {desc}
               </li>
             ))}

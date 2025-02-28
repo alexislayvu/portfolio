@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: 'Object Detector',
       description:
-        'A React app that detects objects in images and webcam feeds in real-time, with adjustable detection settings for precision.',
+        'A web app for real-time object detection in images and webcam streams, featuring customizable detection settings for precision.',
       techStack: ['React', 'JavaScript', 'Tensorflow.js', 'COCO-SSD', 'HTML', 'CSS'],
       githubLink: 'https://github.com/alexislayvu/ObjectDetector',
       projectLink: null,
@@ -15,7 +15,7 @@ const Projects = () => {
     {
       title: 'TaskPilot',
       description:
-        'A Flask-based task management system with asynchronous processing, secure API endpoints, and JWT authentication.',
+        'A backend app for managing tasks with user registration, login, and CRUD operations, optimized with asynchronous processing and secure API authentication.',
       techStack: ['Python', 'Flask', 'Celery', 'Redis', 'Nginx', 'MySQL', 'JWT', 'Postman'],
       githubLink: 'https://github.com/alexislayvu/backend-todo-app',
       projectLink: null,
@@ -23,7 +23,7 @@ const Projects = () => {
     {
       title: 'QuizLingo',
       description:
-        'A Kotlin app that enhances vocabulary learning through interactive quizzes and visual aids for better retention.',
+        'A mobile language learning app that boosts vocabulary retention through interactive quizzes and visual aids.',
       techStack: ['Kotlin', 'Google ML Kit Translator API', 'Unsplash API'],
       githubLink: 'https://github.com/alexislayvu/quizlingo',
       projectLink: null,
@@ -31,7 +31,7 @@ const Projects = () => {
     {
       title: 'University Database',
       description:
-        'A web-based university database system with a user-friendly interface for students and faculty, optimized for data organization and retrieval.',
+        'A web app for managing and retrieving university data, providing an intuitive interface for students and faculty to access information.',
       techStack: ['HTML', 'CSS', 'MySQL', 'PHP'],
       githubLink: null,
       projectLink: null,

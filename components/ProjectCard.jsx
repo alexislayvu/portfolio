@@ -9,7 +9,7 @@ const ProjectCard = ({ title, description, techStack, githubLink, projectLink })
   ];
 
   return (
-    <div className="columns-1 rounded-lg bg-light-navy max-w-xs mx-auto">
+    <div className="relative columns-1 rounded-lg bg-light-navy max-w-xs mx-auto">
       <div className="m-6">
         <div className="flex justify-between items-center">
           <CiFolderOn className="text-4xl text-green" />
@@ -25,8 +25,8 @@ const ProjectCard = ({ title, description, techStack, githubLink, projectLink })
           </div>
         </div>
         <h3 className="my-4 text-2xl text-lightest-slate">{title}</h3>
-        <h4 className="mb-8 text-light-slate">{description}</h4>
-        <div className="flex flex-wrap mt-2">
+        <h4 className="mb-20 text-light-slate">{description}</h4>
+        <div className="absolute bottom-0 mb-3 flex flex-wrap">
           {techStack.map((tech, index) => (
             <span key={index} className="mr-2 text-slate">
               {tech}

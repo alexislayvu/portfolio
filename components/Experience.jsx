@@ -3,7 +3,7 @@ import SectionHeader from './SectionHeader';
 
 const Experience = () => {
   const jobDescription = [
-    'Collaborate with team members to maintain an organized and efficient product section, improving workflow and ensuring a positive customer experience.',
+    'Collaborate with team members to maintain an organized and efficient product section, improving workflow and reducing restocking time.',
     'Demonstrate problem-solving abilities by addressing customer concerns or product issues in real-time, contributing to customer satisfaction and store success.',
     'Engage with customers on the sales floor to provide recommendations and build product knowledge, fostering a welcoming and informative environment.',
   ];
@@ -24,7 +24,9 @@ const Experience = () => {
               Trader Joe's
             </a>
           </h3>
-          <h4 className="mb-6 text-lg text-light-slate">October 2019 - Present </h4>
+          <h4 className="mb-6 text-lg text-light-slate">
+            October 2019 - Present{' '}
+          </h4>
           <ul className="list-none">
             {jobDescription.map((desc, index) => (
               <li key={index} className="mb-2 text-lg text-slate md:text-xl">

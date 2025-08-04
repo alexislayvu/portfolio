@@ -21,7 +21,8 @@ const About = () => {
         <div className="max-w-screen-lg mx-auto grid grid-cols-1 lg:grid-cols-2">
           <div>
             <p className="mt-4 text-lg text-slate md:text-xl">
-              I recently graduated with a Bachelor of Science in Computer Science from{' '}
+              I recently graduated with a Bachelor of Science in Computer
+              Science from{' '}
               <a
                 href="https://www.fullerton.edu/about/default.aspx"
                 target="_blank"
@@ -39,11 +40,14 @@ const About = () => {
               >
                 Trader Joe's
               </a>{' '}
-              with a full-time academic load. Now, I am excited to begin my career as a software
-              engineer and am actively seeking full-time positions in the field.
+              with a full-time academic load. Now, I am excited to begin my
+              career as a software engineer and am actively seeking full-time
+              positions in the field.
             </p>
 
-            <p className="mt-4 text-lg text-slate md:text-xl">Technologies I've worked with:</p>
+            <p className="mt-4 text-lg text-slate md:text-xl">
+              Technologies I've worked with:
+            </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-3">
               {technologies.map((category, index) => (
@@ -52,7 +56,8 @@ const About = () => {
                   <ul className="list-none">
                     {category.list.map((item, subIndex) => (
                       <li key={subIndex} className="text-base text-slate">
-                        <span className="mr-2 text-sm text-green">▹</span> {item}
+                        <span className="mr-2 text-sm text-green">▹</span>{' '}
+                        {item}
                       </li>
                     ))}
                   </ul>
@@ -61,11 +66,10 @@ const About = () => {
             </div>
 
             <p className="mt-4 text-lg text-slate md:text-xl">
-              Outside of work, I cherish spending quality time with my girlfriend, whether it's
-              exploring new places, going on long drives, visiting Disneyland, or cozying up to
-              binge-watch one of our favorite shows. I also love going to the movies, indulging in
-              shopping, and have recently embraced running. Looking ahead, I want to pick up
-              reading, learn new technologies, and strengthen my current skills.
+              In my free time, I enjoy working out, going to the movies,
+              shopping, and spending quality time with my girlfriend. Looking
+              ahead, I want to pick up reading, learn new technologies, and
+              strengthen my current skills.
             </p>
           </div>
 

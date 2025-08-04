@@ -7,23 +7,39 @@ const Projects = () => {
     {
       title: 'Object Detector',
       description:
-        'A web app for real-time object detection in images and webcam streams, featuring customizable detection settings for precision.',
-      techStack: ['React', 'JavaScript', 'Tensorflow.js', 'COCO-SSD', 'HTML', 'CSS'],
+        'A web app that detects and identifies objects in real time using a webcam or uploaded images, featuring customizable detection settings for precision.',
+      techStack: [
+        'React',
+        'JavaScript',
+        'Tensorflow.js',
+        'COCO-SSD',
+        'HTML',
+        'CSS',
+      ],
       githubLink: 'https://github.com/alexislayvu/ObjectDetector',
       projectLink: null,
     },
     {
       title: 'TaskPilot',
       description:
-        'A backend app for managing tasks with user registration, login, and CRUD operations, optimized with asynchronous processing and secure API authentication.',
-      techStack: ['Python', 'Flask', 'Celery', 'Redis', 'Nginx', 'MySQL', 'JWT', 'Postman'],
+        'A backend for a to-do app where users can register, log in, and manage their tasks.',
+      techStack: [
+        'Python',
+        'Flask',
+        'Celery',
+        'Redis',
+        'Nginx',
+        'MySQL',
+        'JWT',
+        'Postman',
+      ],
       githubLink: 'https://github.com/alexislayvu/backend-todo-app',
       projectLink: null,
     },
     {
       title: 'QuizLingo',
       description:
-        'A mobile language learning app that boosts vocabulary retention through interactive quizzes and visual aids.',
+        'A language learning app that helps users build vocabulary through image-based translation quizzes.',
       techStack: ['Kotlin', 'Google ML Kit Translator API', 'Unsplash API'],
       githubLink: 'https://github.com/alexislayvu/quizlingo',
       projectLink: null,
@@ -31,7 +47,7 @@ const Projects = () => {
     {
       title: 'University Database',
       description:
-        'A web app for managing and retrieving university data, providing an intuitive interface for students and faculty to access information.',
+        'A web app for managing and retrieving university data, allowing users to view information on students, courses, and faculty.',
       techStack: ['HTML', 'CSS', 'MySQL', 'PHP'],
       githubLink: null,
       projectLink: null,

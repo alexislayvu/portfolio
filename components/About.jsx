@@ -6,11 +6,15 @@ const About = () => {
   const technologies = [
     {
       title: 'Languages',
-      list: ['Python', 'C/C++', 'JavaScript', 'HTML', 'CSS', 'Kotlin'],
+      list: ['Python', 'C/C++', 'JavaScript', 'HTML/CSS', 'Kotlin'],
     },
     {
-      title: 'Web Development',
-      list: ['React', 'Next.js', 'Tailwind CSS', 'Flask', 'MySQL', 'PHP'],
+      title: 'Frontend',
+      list: ['React', 'Next.js', 'Tailwind CSS'],
+    },
+    {
+      title: 'Backend / Database',
+      list: ['Flask', 'MySQL', 'PHP'],
     },
   ];
 
@@ -21,8 +25,7 @@ const About = () => {
         <div className="max-w-screen-lg mx-auto grid grid-cols-1 lg:grid-cols-2">
           <div>
             <p className="mt-4 text-lg text-slate md:text-xl">
-              I recently graduated with a Bachelor of Science in Computer
-              Science from{' '}
+              I graduated with a B.S. in Computer Science from{' '}
               <a
                 href="https://www.fullerton.edu/about/default.aspx"
                 target="_blank"
@@ -30,24 +33,12 @@ const About = () => {
                 className="text-green"
               >
                 California State University, Fullerton
-              </a>
-              . During my studies, I balanced part-time work at{' '}
-              <a
-                href="https://www.traderjoes.com/home/about-us"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-green"
-              >
-                Trader Joe's
               </a>{' '}
-              with a full-time academic load. Now, I am excited to begin my
-              career as a software engineer and am actively seeking full-time
-              positions in the field.
+              and am actively seeking full-time software engineering
+              opportunities to start my career.
             </p>
 
-            <p className="mt-4 text-lg text-slate md:text-xl">
-              Technologies I've worked with:
-            </p>
+            <p className="mt-4 text-lg text-slate md:text-xl">Technologies:</p>
 
             <div className="grid grid-cols-2 sm:grid-cols-3">
               {technologies.map((category, index) => (
@@ -66,10 +57,9 @@ const About = () => {
             </div>
 
             <p className="mt-4 text-lg text-slate md:text-xl">
-              In my free time, I enjoy working out, going to the movies,
-              shopping, and spending quality time with my girlfriend. Looking
-              ahead, I want to pick up reading, learn new technologies, and
-              strengthen my current skills.
+              I spend my free time at the gym, piecing together jigsaw puzzles,
+              and learning how to cook. I also enjoy going to the movies and
+              playing video games when I need to shut my brain off.
             </p>
           </div>
 

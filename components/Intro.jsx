@@ -21,10 +21,11 @@ const Intro = () => {
             Aspiring Software Engineer
           </h2>
           <p className="text-lg md:text-xl text-slate mt-4 max-w-xl mx-auto">
-            I enjoy solving problems through code, learning new technologies,
-            and working collaboratively to create impactful solutions. I'm eager
-            to contribute to projects where I can grow my skills and make a
-            meaningful difference in a dynamic environment.
+            I enjoy building software, solving problems through code, and
+            learning new technologies as I go. I've worked on projects across
+            web and mobile development, and I like turning ideas into simple,
+            functional applications. I'm looking for opportunities where I can
+            grow as a developer and contribute to real-world projects.
           </p>
 
           <div className="flex justify-center gap-20 mt-5">

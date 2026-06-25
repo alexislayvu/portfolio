@@ -5,9 +5,25 @@ import FadeInSection from './FadeInSection';
 const Projects = () => {
   const projects = [
     {
+      title: 'TaskPilot',
+      description:
+        'A REST API for task management with user authentication, JWT-secured endpoints, and full CRUD operations. Integrated Celery and Redis for asynchronous task processing, reducing wait times for long-running jobs.',
+      techStack: [
+        'Python',
+        'Flask',
+        'Celery',
+        'Redis',
+        'MySQL',
+        'JWT',
+        'Postman',
+      ],
+      githubLink: 'https://github.com/alexislayvu/backend-todo-app',
+      projectLink: null,
+    },
+    {
       title: 'Object Detector',
       description:
-        'A web app that detects and identifies objects in real time using a webcam or uploaded images, featuring customizable detection settings for precision.',
+        'A web app that uses TensorFlow.js and the COCO-SSD model to detect and identify objects in real time via webcam or uploaded images. Includes adjustable confidence thresholds and max-detection controls for precision tuning.',
       techStack: [
         'React',
         'JavaScript',
@@ -20,26 +36,9 @@ const Projects = () => {
       projectLink: null,
     },
     {
-      title: 'TaskPilot',
-      description:
-        'A backend for a to-do app where users can register, log in, and manage their tasks.',
-      techStack: [
-        'Python',
-        'Flask',
-        'Celery',
-        'Redis',
-        'Nginx',
-        'MySQL',
-        'JWT',
-        'Postman',
-      ],
-      githubLink: 'https://github.com/alexislayvu/backend-todo-app',
-      projectLink: null,
-    },
-    {
       title: 'QuizLingo',
       description:
-        'A language learning app that helps users build vocabulary through image-based translation quizzes.',
+        'A mobile vocabulary app that tests word knowledge through interactive quizzes. Uses Google ML Kit to validate answers in real time and the Unsplash API to pair words with contextual images for better retention.',
       techStack: ['Kotlin', 'Google ML Kit Translator API', 'Unsplash API'],
       githubLink: 'https://github.com/alexislayvu/quizlingo',
       projectLink: null,
@@ -47,7 +46,7 @@ const Projects = () => {
     {
       title: 'University Database',
       description:
-        'A web app for managing and retrieving university data, allowing users to view information on students, courses, and faculty.',
+        'A relational database system for managing university records including students, courses, and faculty, with a MySQL backend and an HTML/CSS interface for data retrieval.',
       techStack: ['HTML', 'CSS', 'MySQL', 'PHP'],
       githubLink: null,
       projectLink: null,
